@@ -1,0 +1,35 @@
+.textinput {
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.textinput::placeholder {
+  padding: 10px;
+}
+.contact > form > div > p {
+  text-align: left;
+  margin-left: 5px;
+}
+.btn {
+  width: 100% !important;
+  border-radius: 10px;
+  background-color: white !important;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu {
+  width: 100%;
+  background-color: lightgrey;
+}
+.dropdown-item {
+  white-space: normal;
+}
+@media only screen and (min-width: 900px) {
+  .textinput {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+.contact {
+  background-color: rgb(47, 47, 49);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  color: white;
+}
+.contact > div > p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 50px;
+}
+.contact__submit {
+  border: none;
+  border-radius: 30px;
+  padding: 5px 25px;
+  color: white;
+  width: 40%;
+  background-color: rgb(96, 170, 96);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.contact__footer {
+  text-align: left;
+  font-size: 1rem;
+}
+.contact__footer > h4 {
+  color: grey;
+}
+.contact__footer > h3 {
+  margin-top: 50px;
+}
+@media only screen and (min-width: 900px) {
+  .form {
+    display: grid;
+    grid-template-columns:
+      1.3fr
+      2fr
+      1.5fr
+      1.4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .dropdown {
+    margin: 10px;
+  }
+  .contact__form {
+    /* From https://css.glass */
+    background: rgba(200, 200, 200, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(200, 200, 200, 0.3);
+  }
+}
